@@ -1,0 +1,51 @@
+.homes-grid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 1rem 2rem;
+}
+
+.home{
+    position: relative;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 0.2rem 0.2rem;
+    cursor: pointer;
+}
+
+.home-images{
+    width: 100%;
+    height: 72%;
+    border-radius: 20px;
+}
+
+.home-details{
+    line-height: 1.4rem;
+    font-weight: 500;
+}
+
+.middle-text{
+    color: gainsboro;
+}
+
+.upload-icon-container{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    right: 15px;
+    top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(224, 224, 224, 0.861);
+    border-radius: 50%;
+    padding: 1rem 0.1rem;
+}
+
+.upload-icon{
+    width: 25px;
+    height: 25px;
+}

@@ -230,7 +230,7 @@ nav{
   height: 100%;
   width: 280px;
   font-size: 0.8rem;
-  padding-right:1.2em;
+  padding-right:0.7em;
   line-height: 1.1rem;
   align-items: center;
   justify-content: space-between;
@@ -272,4 +272,12 @@ nav{
 
 .guests-search-container:hover .guests{
   border: none;
+}
+
+/* Icons Belt */
+
+.icons-belt{
+  background-color: gray;
+  height: 90px;
+  width: 100%;
 }
