@@ -7,34 +7,122 @@ nav{
   display: flex;
   width: 100%;
   height: 60px;
-  background-color: gray;
 }
 
 .left-section{
-  background-color: lightgreen;
   width: 200px;
   height: 100%;
+  padding: 0 2rem;
   display: flex;
   align-items: center;
 }
 
 .airbnb-logo{
-  height: 35px;
+  height: 38px;
 }
 
 .middle-section{
   display: flex;
   align-items: center;
-  background-color: lightcoral;
-  width: 600px;
+  justify-content: center;
+  width: 750px;
 }
 
 .stay-button, .experience-button{
-  width: 100px;
   height: 40px;
   border-radius: 20px;
-  padding: 0 1rem;
+  padding: 0 1.5rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: grey;
+  background-color: transparent;
   border: none;
   outline: none;
   cursor: pointer;
+}
+
+.stay-button:hover, .experience-button:hover{
+  color: black;
+  background-color: rgba(133, 132, 132, 0.137);
+}
+
+.right-section{
+  display: flex;
+  align-items: center;
+}
+
+.airbnb-home{
+  height: 40px;
+  color: black;
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 0 1rem;
+  border-radius: 22px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.airbnb-home:hover{
+  background-color: rgba(133, 132, 132, 0.137);
+}
+
+.favicon-container{
+  height: 35px;
+  width: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.favicon-container:hover{
+  background-color: rgba(128, 128, 128, 0.171);
+}
+
+.favicon-icon{
+  width: 16px;
+}
+
+.user-logo{
+  height: 50px;
+  width: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+  border-radius: 40px;
+  border: 1px solid rgba(128, 128, 128, 0.285);
+  cursor: pointer;
+}
+
+.user-logo:hover{
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.233);
+}
+
+.menu-container{
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-icon{
+  height: 16px;
+}
+
+.person-icon{
+  height: 30px;
+}
+
+.person-logo-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
 }
