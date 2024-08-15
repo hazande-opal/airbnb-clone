@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav{
+  display: flex;
+  width: 100%;
+  height: 60px;
+  background-color: gray;
+}
+
+.left-section{
+  background-color: lightgreen;
+  width: 200px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.airbnb-logo{
+  height: 35px;
+}
+
+.middle-section{
+  display: flex;
+  align-items: center;
+  background-color: lightcoral;
+  width: 600px;
+}
+
+.stay-button, .experience-button{
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  padding: 0 1rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
